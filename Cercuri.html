@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cercuri</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="StilizareCercuri.css">
+	<script src="ScriptCercuri.js"></script>
+</head>
+
+<body>
+	<canvas id="panza" width="1000" height="500"></canvas>
+	<div id="meniu">
+		<form>
+			<fieldset>
+				<legend>Coordonate</legend>
+				<label>X:</label>
+				<input type="text" id="coordx"><br>
+				<label>Y:</label>
+				<input type="text" id="coordy"><br>
+				<input type="button" id="butoncoord" value="Deseneaza"><br>
+			</fieldset>
+			<fieldset>
+				<legend>Afiseaza coordonate langa mouse?</legend>
+				<input type="radio" name="mouse" value="da" id="da">
+				<label>Da</label><br>
+				<input type="radio" name="mouse" value="nu" id="nu">
+				<label>Nu</label><br>
+			</fieldset>
+		</form>
+		<button id="actiune"></button>
+	</div>
+	<h3>Stare:</h3>
+	<p id="descriere"></p>
+	<div id="coordonate"></div>
+</body>
+</html> 
